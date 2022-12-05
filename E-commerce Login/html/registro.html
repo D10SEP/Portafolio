@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOOD FOOD</title>
+    <link rel="stylesheet" href="/css/e-commers.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container-fluid bg-primary">
+        <div class="container">
+      
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen-2" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M19 3v12h-5c-.023 -3.681 .184 -7.406 5 -12zm0 12v6h-1v-3m-10 -14v17m-3 -17v3a3 3 0 1 0 6 0v-3" />
+                  </svg>
+                  <a class="navbar-brand" href="/html/E-commers.html">Good Food</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/html/E-commers.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/html/Nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Productos
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Productos del Mar</a></li>
+                          <li><a class="dropdown-item" href="#">Productos de Nuestro Huerto</a></li>
+                          <li><a class="dropdown-item" href="#">Productos Dulces</a></li>
+                          <li><a class="dropdown-item" href="#">Frutos Secos</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                       
+                        <a class="btn btn-outline-success" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="12" cy="7" r="4" />
+                            <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                          </svg>
+                          Mi cuenta
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="/html/registro.html">Crear cuenta</a></li>
+                          <li><a class="dropdown-item" href="/html/InicioSesion.html">Iniciar sesión</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item">
+                        <a href="/html/carrito.html" class="btn btn-outline-success">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="6" cy="19" r="2" />
+                            <circle cx="17" cy="19" r="2" />
+                            <path d="M17 17h-11v-14h-2" />
+                            <path d="M6 5l14 1l-1 7h-13" />
+                          </svg>
+                          Carrito
+                        </a>
+                      </li>
+                    </ul>
+                   
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </div>
+ 
+    <section class="page-header" data-store="page-title">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="text-center h2 h1-md text-primary" style="padding:32px;">Crear cuenta</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <p class="text-center mb-4 px-4">Comprá más rápido y llevá el control de tus pedidos, ¡En un solo lugar!</p>
+
+    <section class="account-page">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-8">
+                    <form id="login-form" action method="post" class="js-form form" data-store="account-register">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Nombre y apellido</label>
+                            <input type="text" id="name" class="form-control" autocorrect="off" autocapitalize="off" name="name" placeholder="Ej.: María Perez">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" class="form-control" autocrrect="off" autocapitalize="off" name="email" placeholder="Ej.: tunombre@email.com" >
+                        </div>
+
+                        <div class="form-group ">
+                            <label class="form-label " for="phone">Teléfono (opcional)</label>
+                            <input type="tel" id="phone" class=" form-control  " autocorrect="off" autocapitalize="off" name="phone" placeholder="ej.: 1123445567">
+                        </div>
+
+                        <div class="form-group " style="display:initial;">
+                            <label class="form-label " for="password">Contraseña</label>
+                            <input type="password" id="password" class="js-password-input form-control  " autocorrect="off" autocapitalize="off" autocomplete="off" name="password">
+                             
+                            <a aria-label="Ver contraseña" class="js-password-view btn form-toggle-eye">
+                            <span class="js-eye-open" style="display: none;">
+                              <svg class="icon-inline svg-icon-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"></path></svg>
+                            </span>
+                            <span class="js-eye-closed">
+                             <svg class="icon-inline svg-icon-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M320 400c-75.85 0-137.25-58.71-142.9-133.11L72.2 185.82c-13.79 17.3-26.48 35.59-36.72 55.59a32.35 32.35 0 0 0 0 29.19C89.71 376.41 197.07 448 320 448c26.91 0 52.87-4 77.89-10.46L346 397.39a144.13 144.13 0 0 1-26 2.61zm313.82 58.1l-110.55-85.44a331.25 331.25 0 0 0 81.25-102.07 32.35 32.35 0 0 0 0-29.19C550.29 135.59 442.93 64 320 64a308.15 308.15 0 0 0-147.32 37.7L45.46 3.37A16 16 0 0 0 23 6.18L3.37 31.45A16 16 0 0 0 6.18 53.9l588.36 454.73a16 16 0 0 0 22.46-2.81l19.64-25.27a16 16 0 0 0-2.82-22.45zm-183.72-142l-39.3-30.38A94.75 94.75 0 0 0 416 256a94.76 94.76 0 0 0-121.31-92.21A47.65 47.65 0 0 1 304 192a46.64 46.64 0 0 1-1.54 10l-73.61-56.89A142.31 142.31 0 0 1 320 112a143.92 143.92 0 0 1 144 144c0 21.63-5.29 41.79-13.9 60.11z"></path></svg>
+                            </span>
+                            </a>  
+                         </div>
+
+                        <div class="form-group ">
+                            <label class="form-label " for="password_confirmation">Confirmar contraseña</label>
+                            <input type="password" id="password_confirmation" class="js-password-input form-control  " autocorrect="off" autocapitalize="off" autocomplete="off" name="password_confirmation">
+                             
+                            <a aria-label="Ver contraseña" class="js-password-view btn form-toggle-eye">
+                                <span class="js-eye-open" style="display: none;">
+                                  <svg class="icon-inline svg-icon-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"></path></svg>
+                                </span>
+                                <span class="js-eye-closed">
+                                  <svg class="icon-inline svg-icon-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M320 400c-75.85 0-137.25-58.71-142.9-133.11L72.2 185.82c-13.79 17.3-26.48 35.59-36.72 55.59a32.35 32.35 0 0 0 0 29.19C89.71 376.41 197.07 448 320 448c26.91 0 52.87-4 77.89-10.46L346 397.39a144.13 144.13 0 0 1-26 2.61zm313.82 58.1l-110.55-85.44a331.25 331.25 0 0 0 81.25-102.07 32.35 32.35 0 0 0 0-29.19C550.29 135.59 442.93 64 320 64a308.15 308.15 0 0 0-147.32 37.7L45.46 3.37A16 16 0 0 0 23 6.18L3.37 31.45A16 16 0 0 0 6.18 53.9l588.36 454.73a16 16 0 0 0 22.46-2.81l19.64-25.27a16 16 0 0 0-2.82-22.45zm-183.72-142l-39.3-30.38A94.75 94.75 0 0 0 416 256a94.76 94.76 0 0 0-121.31-92.21A47.65 47.65 0 0 1 304 192a46.64 46.64 0 0 1-1.54 10l-73.61-56.89A142.31 142.31 0 0 1 320 112a143.92 143.92 0 0 1 144 144c0 21.63-5.29 41.79-13.9 60.11z"></path></svg>
+                                </span>
+                            </a>                        
+                        </div>
+
+                        <div class="g-recaptcha">
+                            <div style="width: 304px; height: 78px;">
+                                <div>
+                                    <iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=2&amp;k=6LdvubwUAAAAAKg5583RDx5WbiQg-J3lUa_INUHR&amp;co=aHR0cHM6Ly93d3cuY2FzYWphcG9uZXNhLmNsOjQ0Mw..&amp;hl=es-419&amp;v=Km9gKuG06He-isPsP6saG8cn&amp;size=normal&amp;cb=kec02g8h8jti" width="304" height="78" role="presentation" name="a-j045illodygz" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox">
+
+                                    </iframe>
+                                </div>
+                                <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;">
+                                </textarea>
+                            </div>
+                            <iframe style="display: none;">
+                            </iframe>
+                        </div>
+
+                        <a href="#" class="btn btn-outline-success" style="display: flex; justify-content:center;">Crear cuenta</a>
+                            <span class="js-form-spinner" style="display:none;">	<svg class="icon-inline icon-spin h5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M288 39.056v16.659c0 10.804 7.281 20.159 17.686 23.066C383.204 100.434 440 171.518 440 256c0 101.689-82.295 184-184 184-101.689 0-184-82.295-184-184 0-84.47 56.786-155.564 134.312-177.219C216.719 75.874 224 66.517 224 55.712V39.064c0-15.709-14.834-27.153-30.046-23.234C86.603 43.482 7.394 141.206 8.003 257.332c.72 137.052 111.477 246.956 248.531 246.667C393.255 503.711 504 392.788 504 256c0-115.633-79.14-212.779-186.211-240.236C302.678 11.889 288 23.456 288 39.056z"></path></svg>
+                    </span>
+                        
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+<footer class="js-hide-footer-while-scrolling display-when-content-ready" data-store="footer">
+    <div class="container-fluid px-md-5">
+      <div class="row element-footer">
+        <div class="col-md mb-4">
+          <h4 class="h3">Good Food</h4>
+        </div>
+        <div class="col">
+          <h4 class="h3">Categorías</h4>
+          <ul class="footer-menu">
+            <li class="footer-menu-item">
+              <a href="" class="footer-menu-link">Nosotros</a>
+            </li>
+            <li class="footer-menu-item">
+              <a href="" class="footer-menu-link">Productos</a>
+            </li>
+            <li class="footer-menu-item">
+              <a href="" class="footer-menu-link">Envios y Retiros</a>
+            </li>
+            <li class="footer-menu-item">
+              <a href="" class="footer-menu-link">Compra al por mayor</a>
+            </li>
+  
+  
+          </ul>
+        </div>
+        <div class="col">
+          <h4 class="h3">Ayuda</h4>
+          <ul class="footer-menu">
+            <li class="footer-menu-item">
+              <a href="" class="footer-menu-link">Contacto</a>
+            </li>
+            <li class="footer-menu-item">
+              <a href="" class="footer-menu-link">Cómo comprar</a>
+            </li>
+            <li class="footer-menu-item">
+              <a href="" class="footer-menu-link">Preguntas Frecuentes</a>
+            </li>
+            <li class="footer-menu-item">
+              <a href="" class="footer-menu-link">Cambios y Devoluciones</a>
+            </li>
+  
+  
+          </ul>
+        </div>
+  
+        <div class="col-md mb-4">
+          <h4 class="h3">Contáctanos</h4>
+          <ul class="contact-info">
+            <li class="contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                <path d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1" />
+              </svg>
+              <a href="" class="contact-link">+56998982323</a>
+            </li>
+            <li class="contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+              </svg>
+              <a href="" class="contact-link">+56 2 2343 6464</a>
+            </li>
+            <li class="contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <polyline points="3 7 12 13 21 7" />
+              </svg>
+              <a href="" class="contact-link">Ho@goodfood.cl</a>
+            </li>
+            <li class="contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="12" cy="11" r="3" />
+                <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+              </svg>
+              <a href="" class="contact-link">Los Peucos #14</a>
+            </li>
+  
+  
+          </ul>
+        </div>
+  
+       <div class="footer-legal">
+        <p>Copyright Good Food | @ 2022 | Todos los derechos reservados</p>
+       </div>
+  
+  
+  
+      </div>
+    </div>
+    
+  </footer>
+</html>

@@ -1,0 +1,59 @@
+* ::after ::before {
+    box-sizing: inherit;
+}
+.g-recaptcha {
+    display: flex;
+    margin-bottom: 24px;
+    justify-content: center;
+
+}
+
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    position: relative;
+    width: 100%;
+}
+
+#password_confirmation {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    display: block;
+}
+
+.btn btn-primary {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 20px;
+    padding-top: 50px;
+}
+
+footer {
+    background: #e71968;
+}
+
+h3,h4 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-menu {
+    list-style: none;
+}
+
+.footer-menu-link {
+    display: block;
+}
